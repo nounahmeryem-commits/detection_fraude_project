@@ -1,0 +1,25 @@
+# --- Données & machine learning (notebook, modele.py, consumer.py) ---
+pandas>=2.0,<3.0.0
+numpy
+scikit-learn
+imbalanced-learn
+joblib
+xgboost
+
+# --- Streaming (producer.py, consumer.py) ---
+kafka-python>=2.0.3
+pyspark==3.4.0      # doit correspondre à spark-sql-kafka 3.4.0 utilisé dans consumer.py
+pyarrow             # accélère toPandas() dans Spark
+
+# --- Stockage ---
+pymongo
+
+# --- Dashboard ---
+streamlit
+plotly
+
+# --- Notebook (exploration) ---
+matplotlib
+seaborn
+jupyter
+ipykernel
